@@ -7,8 +7,8 @@ using namespace std;
 
 int main ()
 {//declare variables
-        unsigned int r;
-        unsigned int c;
+         int r;
+        int c;
         char aster='*';
 
         vector< vector<char> >stars;
@@ -23,13 +23,12 @@ int main ()
         }while(r<0 || c<0);
         //asks user for row and column size
 
-        stars.resize(r);
-        stars[row].resize(c);
-        //resizes to user specified size
 
         for(int row=0;row<stars.size();row++)
         {
-
+        stars.resize(r);
+        stars[row].resize(c);
+        //resizes to user specifics
                 for(int column=0;column<stars[row].size();column++)
                 {
                         cout<<aster;
