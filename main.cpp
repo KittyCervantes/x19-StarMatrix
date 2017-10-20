@@ -18,8 +18,8 @@ int main ()
 
         do{
                 cout<<"Enter rows and columns of stars:"<<endl;
-                cin>>r<<endl;
-                cin>>c<<endl;
+                cin>>r;
+                cin>>c;
 
         }while(r<0 || c<0);
         //asks user for row and column size
