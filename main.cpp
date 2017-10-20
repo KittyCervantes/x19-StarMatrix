@@ -7,7 +7,7 @@ using namespace std;
 
 int main ()
 {//declare variables
-         int r;
+        int r;
         int c;
         char aster='*';
 
@@ -18,17 +18,18 @@ int main ()
 
         do{
                 cout<<"Enter rows and columns of stars:"<<endl;
-                cin>>r;
-                cin>>c;
+                cin>>r<<endl;
+                cin>>c<<endl;
+
         }while(r<0 || c<0);
         //asks user for row and column size
 
 
         for(int row=0;row<stars.size();row++)
         {
-        stars.resize(r);
-        stars[row].resize(c);
-        //resizes to user specifics
+                stars.resize(r);
+                stars[row].resize(c);
+                //resizes to user specifics
                 for(int column=0;column<stars[row].size();column++)
                 {
                         cout<<aster;
