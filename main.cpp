@@ -17,7 +17,7 @@ int main ()
         //gives vextor size
 
         do{
-                cout<<"Enter 2 numbers for rows and columns ABOVE 0."<<endl;
+                cout<<"Enter rows and columns of stars:"<<endl;
                 cin>>r;
                 cin>>c;
         }while(r<0 || c<0);
